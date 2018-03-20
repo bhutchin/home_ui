@@ -17,6 +17,9 @@ def index():
     <input type="button" class="button" value="Music">
     <input type="button" class="button" value="System">
     <input type="button" class="button" value="Help">
+    <input type="button" class="button_lower" value="Music">
+    <input type="button" class="button_lower" value="System">
+    <input type="button" class="button_lower" value="Help">
     </body>
     </html>
 
