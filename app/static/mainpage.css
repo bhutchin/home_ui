@@ -4,4 +4,19 @@
 	height: 2000px;
 	background-color: yellow;
 }
-body {background-color: coral;}
+body {background-color: #333333;}
+
+.heading {
+	colour: lightsmoke;
+}
+
+.button {
+	background-color: whitesmoke; /* Green */
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}

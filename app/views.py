@@ -6,22 +6,21 @@ from app import app
 @app.route('/index')
 
 def index():
-    #headers = """<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">"""
     
+    headers = """<link rel="stylesheet" type="text/css" href="static/mainpage.css">"""
     body = """<html>
     <head>
-    <link rel="stylesheet" type="text/css" href="static/mainpage.css">
     </head>
     <body>
 
-    <h1>Heading</h1>
-
-    <p>hello world</p>
-
+    <h1>Home Control System</h1>
+    <input type="button" class="button" value="Music">
+    <input type="button" class="button" value="System">
+    <input type="button" class="button" value="Help">
     </body>
     </html>
 
     """
 
-    page = body
+    page = body + headers
     return page
