@@ -10,7 +10,7 @@ def index():
     
     body = """<html>
     <head>
-    <link rel= "stylesheet" type= "text/css" href="{{ url_for('static', filename='mainpage.css')}}" }}">
+    <link rel="stylesheet" type="text/css" href="static/mainpage.css">
     </head>
     <body>
 
