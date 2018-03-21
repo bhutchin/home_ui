@@ -11,15 +11,22 @@ def index():
     body = """<html>
     <head>
     </head>
+    <div class="hcs">
+        <h1>Home Control System</h1>
+    </div>
     <body>
-
-    <h1>Home Control System</h1>
-    <input type="button" class="button" value="Music">
-    <input type="button" class="button" value="System">
-    <input type="button" class="button" value="Help">
-    <input type="button" class="button_lower" value="Music">
-    <input type="button" class="button_lower" value="System">
-    <input type="button" class="button_lower" value="Help">
+    <div class="grid-container">
+        <div class="grid-item">
+            <input type="button" class="button" value="Music">
+            <input type="button" class="button" value="System">
+            <input type="button" class="button" value="Help">
+        </div>
+        <div class="grid-item">
+            <input type="button" class="button_lower" value="Music">
+            <input type="button" class="button_lower" value="System">
+            <input type="button" class="button_lower" value="Help">
+        </div>
+    </div>
     </body>
     </html>
 
