@@ -34,3 +34,8 @@ def index():
 
     page = body + headers
     return page
+
+def contact():
+    if "help" in requests.form:
+        print "blah"
+
